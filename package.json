@@ -1,0 +1,20 @@
+{
+  "name": "udacityportfolio",
+  "version": "1.0.0",
+  "description": "A portfolio of all my assignments completed last year for Udacity's Front End Developer Nanodegree.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clockwerkz/udacityportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clockwerkz/udacityportfolio/issues"
+  },
+  "homepage": "https://github.com/clockwerkz/udacityportfolio#readme"
+}

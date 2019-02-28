@@ -1,1 +1,86 @@
-<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta http-equiv="X-UA-Compatible" content="ie=edge"> <title>Carlos Fins - Udacity FEND Projects</title> <link rel="stylesheet" href="js.a8ba2026.css"></head> <body> <h1>Test</h1> <h2>Adding another header</h2> <img src="buzz_meme.62295500.jpg" alt="Buzz Lightyear Meme with Woody: Rabbit Holes! Rabbit Holes everywhere!"> <script src="js.ef4f7f3c.js"></script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carlos Fins - Udacity FEND Projects</title>
+<link rel="stylesheet" href="/js.00a46daa.css"></head>
+<body>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+        <div class="hero__info">
+            <h1 class="hero__title">Carlos Fins</h1>
+            <h2 class="hero__subtitle">Front End Developer</h2>
+            <h3 class="hero__projects-title">Udacity Nanodegree Project Portfolio</h3>
+        </div> <!-- .hero-info -->   
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+
+    <section class="projects">
+        <div class="container">
+            <h1 class="projects__title">Projects</h1>
+            <div class="projects__showcase">
+                <div class="project-card">
+                    <div class="project-card__image">
+                        <img src="/project01.c56c5cb7.JPG" alt="First Project: Responsive Portfolio Mock up webpage">
+                    </div> <!-- .project__image -->
+                    <div class="project-card__body">
+                        <h2 class="project-card__title">Responsive Portfolio Project</h2>
+                        <p class="project__text">
+                            The first project assignment was to create a responsive portfolio site. I chose to highlight some of the projects I had worked on prior to the NanoDegree.
+                        </p>
+                    </div> <!-- .project-card__body -->
+                    <div class="project-card__footer">
+                        <a class="project__link" href="#">Live Project</a>
+                        <a class="project__link" href="#">GitHub Repo</a>
+                    </div>
+                </div> <!-- .project-card -->
+                <div class="project-card">
+                    <div class="project-card__image">
+                        <img src="/project02.5d55cfb2.JPG" alt="Second Project: Memory Matching JavaScript Game">
+                    </div> <!-- .project__image -->
+                    <div class="project-card__body">
+                        <h2 class="project-card__title">Memory Matching Game</h2>
+                        <p class="project__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laboriosam suscipit et vero. Cupiditate officiis repudiandae voluptatibus, sed nam quos quidem itaque tempore repellat ipsam. Voluptatibus cum magnam exercitationem nobis. 
+                        </p>
+                    </div> <!-- .project-card__body -->
+                    <div class="project-card__footer">
+                        <a class="project__link" href="#">Live Project</a>
+                        <a class="project__link" href="#">GitHub Repo</a>
+                    </div>
+                </div> <!-- .project-card -->
+                
+            </div> <!-- .projects__showcase -->
+        </div>
+    </section>
+
+    <script id="project-template" type="text/x-handlebars-template">
+        <div class="project-card">
+                <div class="project-card__header">
+                    <h2 class="project-card__title">{{title}}</h2>
+                </div> <!-- project-card__title -->
+                <div class="project-card__image">
+                    <img src="{{imgLocation}}" alt="First Project: Responsive Portfolio Mock up webpage" />
+                </div> <!-- .project__image -->
+                <div class="project-card__body">
+                    <p class="project__text">
+                        {{projectSynopsis}}
+                    </p>
+                </div> <!-- .project-card__body -->
+                <div class="project-card__footer">
+                    <a class="project__link" href="{{liveLink}}">Live Project</a>
+                    <a class="project__link" href="{{githubLink}}">GitHub Repo</a>
+                </div>
+            </div> <!-- .project-card -->
+      </script>
+    
+    <script src="/js.00a46daa.js"></script>
+</body>
+</html>

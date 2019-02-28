@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/clockwerkz/udacityportfolio/issues"
   },
-  "homepage": "https://github.com/clockwerkz/udacityportfolio#readme"
+  "homepage": "https://github.com/clockwerkz/udacityportfolio#readme",
+  "devDependencies": {
+    "sass": "^1.17.2"
+  }
 }

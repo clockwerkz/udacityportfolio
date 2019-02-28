@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/index.js"],"names":["console","log"],"mappings":";;;AAGA,aAHA,QAAA,uBAGAA,QAAQC,IAAI","file":"js.ef4f7f3c.map","sourceRoot":"..\\src","sourcesContent":["import '../styles/main.scss';\r\n\r\n\r\nconsole.log(\"Hello\");"]}

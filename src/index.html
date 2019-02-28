@@ -7,8 +7,80 @@
     <title>Carlos Fins - Udacity FEND Projects</title>
 </head>
 <body>
-    <h1>Test</h1>
-    <img src='./images/buzz_meme.jpg' alt='Buzz Lightyear Meme with Woody: Rabbit Holes! Rabbit Holes everywhere!' />
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+        <div class="hero__info">
+            <h1 class="hero__title">Carlos Fins</h1>
+            <h2 class="hero__subtitle">Front End Developer</h2>
+            <h3 class="hero__projects-title">Udacity Nanodegree Project Portfolio</h3>
+        </div> <!-- .hero-info -->   
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+
+    <section class="projects">
+        <div class="container">
+            <h1 class="projects__title">Projects</h1>
+            <div class="projects__showcase">
+                <div class="project-card">
+                    <div class="project-card__image">
+                        <img src="images/project01.JPG" alt="First Project: Responsive Portfolio Mock up webpage" />
+                    </div> <!-- .project__image -->
+                    <div class="project-card__body">
+                        <h2 class="project-card__title">Responsive Portfolio Project</h2>
+                        <p class="project__text">
+                            The first project assignment was to create a responsive portfolio site. I chose to highlight some of the projects I had worked on prior to the NanoDegree.
+                        </p>
+                    </div> <!-- .project-card__body -->
+                    <div class="project-card__footer">
+                        <a class="project__link" href="#">Live Project</a>
+                        <a class="project__link" href="#">GitHub Repo</a>
+                    </div>
+                </div> <!-- .project-card -->
+                <div class="project-card">
+                    <div class="project-card__image">
+                        <img src="images/project02.JPG" alt="Second Project: Memory Matching JavaScript Game" />
+                    </div> <!-- .project__image -->
+                    <div class="project-card__body">
+                        <h2 class="project-card__title">Memory Matching Game</h2>
+                        <p class="project__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laboriosam suscipit et vero. Cupiditate officiis repudiandae voluptatibus, sed nam quos quidem itaque tempore repellat ipsam. Voluptatibus cum magnam exercitationem nobis. 
+                        </p>
+                    </div> <!-- .project-card__body -->
+                    <div class="project-card__footer">
+                        <a class="project__link" href="#">Live Project</a>
+                        <a class="project__link" href="#">GitHub Repo</a>
+                    </div>
+                </div> <!-- .project-card -->
+                
+            </div> <!-- .projects__showcase -->
+        </div>
+    </section>
+
+    <script id="project-template" type="text/x-handlebars-template">
+        <div class="project-card">
+                <div class="project-card__header">
+                    <h2 class="project-card__title">{{title}}</h2>
+                </div> <!-- project-card__title -->
+                <div class="project-card__image">
+                    <img src="{{imgLocation}}" alt="First Project: Responsive Portfolio Mock up webpage" />
+                </div> <!-- .project__image -->
+                <div class="project-card__body">
+                    <p class="project__text">
+                        {{projectSynopsis}}
+                    </p>
+                </div> <!-- .project-card__body -->
+                <div class="project-card__footer">
+                    <a class="project__link" href="{{liveLink}}">Live Project</a>
+                    <a class="project__link" href="{{githubLink}}">GitHub Repo</a>
+                </div>
+            </div> <!-- .project-card -->
+      </script>
+    
     <script src="./js/index.js"></script>
 </body>
 </html>

@@ -25,6 +25,6 @@
     "sass": "^1.17.2"
   },
   "dependencies": {
-    "handlebars": "^4.1.0"
+    
   }
 }

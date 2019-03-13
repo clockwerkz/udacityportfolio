@@ -126,6 +126,9 @@ img {
         margin-top: auto;
         padding: 0.5rem;
     }
+    &__footer--solo {
+        justify-content: flex-end;
+    }
 }
 .project {
     &__text {
@@ -163,6 +166,17 @@ img {
 .project-6 {
     background-image: url('../images/project06.PNG');
 }
+
+footer {
+    background-color: #222;
+}
+
+.footer__text {
+    color: #DDD;
+    text-align: center;
+    padding: 2rem 0;
+}
+
 @media screen and (max-width: 960px) {
     .project-card {
         flex-basis: 48%;
